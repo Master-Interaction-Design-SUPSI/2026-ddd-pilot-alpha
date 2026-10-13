@@ -4,7 +4,7 @@ This is your group's public GitHub repository. Your group edits the text and med
 
 **Before you begin:** the course team will give you an invitation, your group identifier, and the website link. Publishing starts once they confirm the setup is ready. You need only a GitHub account and a browser. Anyone can read these files, so use material intended for public sharing.
 
-The supplied text and visual are a **demonstration with invented numbers**. Replace them with your work. Keep the repository name supplied by the course team. You can remove `media/example-detail.svg` when you also remove its reference from `text.md`.
+This pilot contains the existing **Dust** project by Ginevra Terenghi. The course uses it to test text, images, audio and video imports. Its website identifier is `dust`. Keep the repository name supplied by the course team. The main SVG embeds the original PNG artwork; it has not been vectorized.
 
 ## 1. Write your text
 
@@ -63,7 +63,7 @@ These examples use the currently supported syntax:
 | `[[the source\|https://example.org/data]]` | Open a link. Replace the example address with your source. |
 | `[[a detail\|A short explanation]]` | Click to reveal a note. |
 | `{crimson\|a key finding}` | Read those words in colour. |
-| `[[the sketch\|media/example-detail.svg]]` | Click to reveal the template's supporting image. |
+| `[[a dust trace\|bolivia-dust-01.png]]` | Click to reveal a supporting image. |
 
 To add an extra image, audio clip, or video, open `media`, choose **Add file → Upload files**, and commit to **main**. If there is no `media` folder, you can upload the file beside `text.md` instead. Reference the exact path: `media/interview.mp3` for a file inside `media`, or `interview.mp3` for a file at the top level. For example, after uploading those files:
 
